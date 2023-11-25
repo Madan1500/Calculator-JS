@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body style="background-color: black ;">
+    <div class="outer-box">
+        <div class="inner-box">
+            <div class="input-area">
+                <input type="text" readonly>
+            </div>
+            <div class="button-area">
+                
+                <div class="ob1 clear" onclick="
+                    clean();
+                    ">C</div>
+                <div class="ob1" onclick="
+                    display(1);
+                    ">1</div>
+                <div class="ob1" onclick="
+                display(2);
+                "
+                >2</div>
+                <div class="ob1 ob" onclick="
+                display('+');
+                "
+                >+</div>
+                <div class="ob1" onclick="
+                display(3);
+                "
+                >3</div>
+                <div class="ob1" onclick="
+                display(4);
+                "
+                >4</div>
+                <div class="ob1 ob" onclick="
+                display('-');
+                "
+                >-</div>
+                <div class="ob1" onclick="
+                display(5);
+                "
+                >5</div>
+                <div class="ob1" onclick="
+                display(6);
+                "
+                >6</div>
+                <div class="ob1 ob" onclick="
+                display('*');
+                "
+                >x</div>
+                <div class="ob1" onclick="
+                display(7);
+                "
+                >7</div>
+                <div class="ob1" onclick="
+                display(8);
+                "
+                >8</div>
+                <div class="ob1 ob" onclick="
+                display('/');
+                "
+                >/</div>
+                <div class="ob1" onclick="
+                display(9);
+                "
+                >9</div>
+                <div class="ob1" onclick="
+                display(0);
+                "
+                >0</div>
+                <div class="ob1 ob dot" onclick="
+                display('.');
+                "
+                >.</div>
+                <div class="ob1 ob dot equal" onclick="
+                equal();
+                "
+                >=</div>
+            </div>
+        </div>
+    </div>
+    <button onclick="
+        invert();
+    ">Inverse Light</button>
+    <script src="index.js"></script>
+</body>
+</html>
